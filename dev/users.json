@@ -1,0 +1,142 @@
+[
+  {
+    
+    "username": "michaelsmith",
+    "email": "michael.smith@example.com",
+    "password": "123456",
+    "role": "admin"
+  },
+  {
+    
+    "username": "amandalee",
+    "email": "amanda.lee@example.com",
+    "password": "123456",
+    "role": "user"
+  },
+  {
+    
+    "username": "briankim",
+    "email": "brian.kim@example.com",
+    "password": "123456",
+    "role": "admin"
+  },
+  {
+    
+    "username": "rachelgreen",
+    "email": "rachel.green@example.com",
+    "password": "123456",
+    "role": "user"
+  },
+  {
+    
+    "username": "davidjohnson",
+    "email": "david.johnson@example.com",
+    "password": "123456",
+    "role": "user"
+  },
+  {
+    
+    "username": "emilybrown",
+    "email": "emily.brown@example.com",
+    "password": "123456",
+    "role": "admin"
+  },
+  {
+    
+    "username": "chrismiller",
+    "email": "chris.miller@example.com",
+    "password": "123456",
+    "role": "user"
+  },
+  {
+    
+    "username": "laurawilson",
+    "email": "laura.wilson@example.com",
+    "password": "123456",
+    "role": "user"
+  },
+  {
+    
+    "username": "danielmartinez",
+    "email": "daniel.martinez@example.com",
+    "password": "123456",
+    "role": "admin"
+  },
+  {
+    
+    "username": "sarahmoore",
+    "email": "sarah.moore@example.com",
+    "password": "123456",
+    "role": "user"
+  },
+  {
+    
+    "username": "jameswalker",
+    "email": "james.walker@example.com",
+    "password": "123456",
+    "role": "admin"
+  },
+  {
+    
+    "username": "oliviathomas",
+    "email": "olivia.thomas@example.com",
+    "password": "123456",
+    "role": "user"
+  },
+  {
+    
+    "username": "williamhall",
+    "email": "william.hall@example.com",
+    "password": "123456",
+    "role": "user"
+  },
+  {
+    
+    "username": "samanthacook",
+    "email": "samantha.cook@example.com",
+    "password": "123456",
+    "role": "admin"
+  },
+  {
+    
+    "username": "jasonyoung",
+    "email": "jason.young@example.com",
+    "password": "123456",
+    "role": "user"
+  },
+  {
+    
+    "username": "ashleyharris",
+    "email": "ashley.harris@example.com",
+    "password": "123456",
+    "role": "admin"
+  },
+  {
+    
+    "username": "matthewwright",
+    "email": "matthew.wright@example.com",
+    "password": "123456",
+    "role": "user"
+  },
+  {
+    
+    "username": "graceallen",
+    "email": "grace.allen@example.com",
+    "password": "123456",
+    "role": "user"
+  },
+  {
+    
+    "username": "ryanlopez",
+    "email": "ryan.lopez@example.com",
+    "password": "123456",
+    "role": "admin"
+  },
+  {
+    
+    "username": "victoriacarter",
+    "email": "victoria.carter@example.com",
+    "password": "123456",
+    "role": "user"
+  }
+]

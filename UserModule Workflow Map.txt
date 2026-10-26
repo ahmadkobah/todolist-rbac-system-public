@@ -1,0 +1,76 @@
+          [Client / Frontend]
+               │
+               ▼
+┌────────────────────────────────────────────┐
+│          API Request (e.g. POST /users)    │
+└────────────────────────────────────────────┘
+               │
+               ▼
+┌────────────────────────────────────────────┐
+│           📄 userRoute.js                  │
+│   - router.post("/", createUser)           │
+│   - router.get("/", getAllUsers)           │
+│   - router.get("/:id", getUserById)        │
+│   - router.put("/:id", updateUser)         │
+│   - router.patch("/:id/deactivate", softDeleteUser) │
+│   - router.delete("/:id", deleteUser)      │
+└────────────────────────────────────────────┘
+               │
+               ▼
+┌────────────────────────────────────────────┐
+│           🛡️ userValidator.js              │
+│   - createUserValidator                    │
+│   - getUserValidator                       │
+│   - updateUserValidator                    │
+│   - softDeleteUserValidator                │
+│   - deleteUserValidator                    │
+└────────────────────────────────────────────┘
+               │
+               ▼
+┌────────────────────────────────────────────┐
+│           ⚙️ userController.js              │
+│   - createUser(req, res)                   │
+│   - getAllUsers(req, res)                  │
+│   - getUserById(req, res)                  │
+│   - updateUser(req, res)                   │
+│   - softDeleteUser(req, res)               │
+│   - deleteUser(req, res)                   │
+└────────────────────────────────────────────┘
+               │
+               ▼
+┌────────────────────────────────────────────┐
+│           🔧 userService.js                 │
+│   - createUser(userData)                   │
+│   - getAllUsers({ page, limit })           │
+│   - getUserById(id)                        │
+│   - updateUser(id, data, currentUser)      │
+│   - softDeleteUser(id, currentUser)        │
+│   - deleteUser(id, currentUser)            │
+└────────────────────────────────────────────┘
+               │
+               ▼
+┌────────────────────────────────────────────┐
+│           🗂 userRepository.js              │
+│   - create(userData)                       │
+│   - findById(id)                           │
+│   - findBySlug(slug)                       │
+│   - findAll({ page, limit })               │
+│   - updateById(id, data)                   │
+│   - softDeleteById(id)                     │
+│   - deleteById(id)                         │
+│   - emailExists(email)                     │
+│   - usernameExists(username)               │
+└────────────────────────────────────────────┘
+               │
+               ▼
+┌────────────────────────────────────────────┐
+│           🧬 userModel.js                   │
+│   - Schema fields (username, email, etc.)   │
+│   - Pre-save hook: hash password            │
+│   - correctPassword(input, storedHash)      │
+└────────────────────────────────────────────┘
+               │
+               ▼
+┌────────────────────────────────────────────┐
+│               💾 MongoDB                   │
+└────────────────────────────────────────────┘

@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Create Landing Page",
+    "description": "Design and develop the landing page for the new campaign.",
+    "priority": "Medium",
+    "status": "Not Started",
+    "dueDate": "2025-09-23",
+    "userId": "688ae5745e152c926394c347"
+  },
+  {
+    "title": "Review Marketing Strategy",
+    "description": "Go through the Q3 strategy document and propose improvements.",
+    "priority": "Medium",
+    "status": "Pending Review",
+    "dueDate": "2025-09-26",
+    "userId": "688ae5745e152c926394c34a"
+  },
+  {
+    "title": "Backend API Refactoring",
+    "description": "Clean up legacy API endpoints and improve response handling.",
+    "priority": "High",
+    "status": "Completed",
+    "dueDate": "2025-09-18",
+    "userId": "688ae5745e152c926394c355"
+  },
+  {
+    "title": "Team Check-in Meeting",
+    "description": "Weekly sync with the dev team to align on sprint goals.",
+    "priority": "Low",
+    "status": "In Progress",
+    "dueDate": "2025-09-13",
+    "userId": "688ae5745e152c926394c34e"
+  },
+  {
+    "title": "UI Accessibility Testing",
+    "description": "Test UI for WCAG compliance and document issues.",
+    "priority": "Low",
+    "status": "Pending Review",
+    "dueDate": "2025-09-01",
+    "userId": "688ae5745e152c926394c352"
+  },
+  {
+    "title": "Client Proposal Draft",
+    "description": "Put together a draft proposal for the new retail client.",
+    "priority": "High",
+    "status": "Not Started",
+    "dueDate": "2025-08-31",
+    "userId": "688ae5745e152c926394c348"
+  },
+  {
+    "title": "Optimize Database Queries",
+    "description": "Improve query performance in the reporting module.",
+    "priority": "Medium",
+    "status": "Completed",
+    "dueDate": "2025-08-16",
+    "userId": "688ae5745e152c926394c353"
+  },
+  {
+    "title": "Bug Triage Session",
+    "description": "Review and prioritize reported bugs from QA.",
+    "priority": "High",
+    "status": "Pending Review",
+    "dueDate": "2025-09-06",
+    "userId": "688ae5745e152c926394c357"
+  },
+  {
+    "title": "Update User Onboarding Flow",
+    "description": "Simplify the onboarding process based on feedback.",
+    "priority": "Medium",
+    "status": "Not Started",
+    "dueDate": "2025-08-15",
+    "userId": "688ae5745e152c926394c351"
+  },
+  {
+    "title": "Deploy Beta Release",
+    "description": "Push the beta version to staging and notify stakeholders.",
+    "priority": "Medium",
+    "status": "Pending Review",
+    "dueDate": "2025-08-24",
+    "userId": "688ae5745e152c926394c34b"
+  },
+  {
+    "title": "Design Mobile Nav Menu",
+    "description": "Create mobile-friendly navigation for the site redesign.",
+    "priority": "Medium",
+    "status": "Not Started",
+    "dueDate": "2025-08-28",
+    "userId": "688ae5745e152c926394c34f"
+  },
+  {
+    "title": "QA Final Integration",
+    "description": "Run tests on the integrated system and log results.",
+    "priority": "Medium",
+    "status": "Completed",
+    "dueDate": "2025-08-08",
+    "userId": "688ae5745e152c926394c350"
+  },
+  {
+    "title": "Sprint Planning",
+    "description": "Organize tasks and priorities for the next sprint cycle.",
+    "priority": "Low",
+    "status": "In Progress",
+    "dueDate": "2025-09-19",
+    "userId": "688ae5745e152c926394c345"
+  },
+  {
+    "title": "Legal Review",
+    "description": "Send updated policy documents to legal for final review.",
+    "priority": "High",
+    "status": "Completed",
+    "dueDate": "2025-09-20",
+    "userId": "688ae5745e152c926394c349"
+  },
+  {
+    "title": "Push Notification Setup",
+    "description": "Configure push notifications for both Android and iOS.",
+    "priority": "Medium",
+    "status": "Pending Review",
+    "dueDate": "2025-08-15",
+    "userId": "688ae5745e152c926394c346"
+  }
+]

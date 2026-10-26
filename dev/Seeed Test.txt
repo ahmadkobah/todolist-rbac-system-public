@@ -1,0 +1,15 @@
+
+     ------   Seed Test   ------
+
+
+node dev/seed-caller.js --import User
+
+node dev/seed-caller.js --delete User
+
+---------------------------------------
+
+node dev/seed-caller.js --import Task
+
+node dev/seed-caller.js --delete Task
+
+---------------------------------------

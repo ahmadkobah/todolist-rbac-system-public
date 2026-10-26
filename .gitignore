@@ -1,0 +1,7 @@
+# Secrets, dependencies and generated files
+node_modules/
+.env
+.env.*
+!.env.example
+uploads/
+*.log

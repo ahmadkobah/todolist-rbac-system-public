@@ -1,0 +1,71 @@
+          [Client / Frontend]
+               │
+               ▼
+┌────────────────────────────────────────────┐
+│           API Request (e.g. POST /tasks)   │
+└────────────────────────────────────────────┘
+               │
+               ▼
+┌────────────────────────────────────────────┐
+│           📄 taskRoute.js                  │
+│   - router.post("/", createTask)           │
+│   - router.get("/", getAllTasks)           │
+│   - router.get("/:id", getTaskById)        │
+│   - router.put("/:id", updateTask)         │
+│   - router.patch("/:id/deactivate", softDeleteTask) │
+│   - router.delete("/:id", deleteTask)      │
+└────────────────────────────────────────────┘
+               │
+               ▼
+┌────────────────────────────────────────────┐
+│           🛡️ taskValidator.js              │
+│   - createTaskValidator                    │
+│   - getTaskValidator                       │
+│   - updateTaskValidator                    │
+│   - softDeleteTaskValidator                │
+│   - deleteTaskValidator                    │
+└────────────────────────────────────────────┘
+               │
+               ▼
+┌────────────────────────────────────────────┐
+│           ⚙️ taskController.js              │
+│   - createTask(req, res)                   │
+│   - getAllTasks(req, res)                  │
+│   - getTaskById(req, res)                  │
+│   - updateTask(req, res)                   │
+│   - softDeleteTask(req, res)               │
+│   - deleteTask(req, res)                   │
+└────────────────────────────────────────────┘
+               │
+               ▼
+┌────────────────────────────────────────────┐
+│           🔧 taskService.js                 │
+│   - createTask(data)                       │
+│   - getAllTasks(filter)                    │
+│   - getTaskById(id)                        │
+│   - updateTask(id, data, currentUser)      │
+│   - softDeleteTask(id, currentUser)        │
+│   - deleteTask(id, currentUser)            │
+└────────────────────────────────────────────┘
+               │
+               ▼
+┌────────────────────────────────────────────┐
+│           🗂 taskRepository.js              │
+│   - create(taskData)                       │
+│   - findById(id)                           │
+│   - findAll(filter)                        │
+│   - updateById(id, data)                   │
+│   - softDeleteById(id)                     │
+│   - deleteById(id)                         │
+└────────────────────────────────────────────┘
+               │
+               ▼
+┌────────────────────────────────────────────┐
+│           🧬 taskModel.js                   │
+│   - Mongoose schema definition              │
+└────────────────────────────────────────────┘
+               │
+               ▼
+┌────────────────────────────────────────────┐
+│               💾 MongoDB                  │
+└────────────────────────────────────────────┘
